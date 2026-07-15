@@ -12,7 +12,7 @@ public class A02_Smallest_Element {
             arr1[i]=sc.nextInt();
         }
         int smallestElement=arr1[0];
-        for(int i=0;i<arr1.length;i++) {
+        for(int i=1;i<arr1.length;i++) {
             if(smallestElement>arr1[i]){
                 smallestElement=arr1[i];
             }
