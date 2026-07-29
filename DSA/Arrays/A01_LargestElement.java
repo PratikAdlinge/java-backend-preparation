@@ -5,26 +5,27 @@ import java.util.Scanner;
 public class A01_LargestElement {
     public static void main(String[] args) {                
     
-    Scanner sc=new Scanner(System.in);
+    Scanner sc =new Scanner(System.in);
     int size;
-    System.out.println("Enter the the size of an array");
+    System.out.println("Enter the size of an array:");
     size=sc.nextInt();
-    int arr[]=new int[size];
-    System.out.println("enter the elements of array:");
-    for(int i=0;i<arr.length;i++) {
+    int arr1[]=new int[size];
+    System.out.println("Enter the elements of an array:");
+    for(int i=0;i<arr1.length;i++) {
+        arr1[i]=sc.nextInt();
 
-        arr[i]=sc.nextInt();
-        
     }
-    int largest_Element=arr[0];
-    for(int i=0;i<arr.length;i++) {
-
-        if(largest_Element<arr[i]){
-            largest_Element=arr[i];
+    int largestElement=arr1[0];
+    for(int i=0;i<arr1.length;i++) {
+        if(largestElement<arr1[i]){
+            largestElement=arr1[i];
         }
-       // System.out.println("Element in Arrays:"+arr[i]);
     }
-    System.out.println("Largest Element is:"+largest_Element);
-        
+    System.out.println("Arrays Elements are :");
+    for(int i=0;i<arr1.length;i++) {
+        System.out.println(arr1[i]);
+    
+    }
+    System.out.println("Largest element in an array is:"+largestElement);
     }
 }
