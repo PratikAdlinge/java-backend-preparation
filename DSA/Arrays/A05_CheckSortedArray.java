@@ -1,5 +1,4 @@
-package DSA;
-
+package DSA.Arrays;
 import java.util.Scanner;
 
 public class A05_CheckSortedArray {
