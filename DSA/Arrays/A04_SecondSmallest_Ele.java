@@ -1,3 +1,4 @@
+package DSA.Arrays;
 import java.util.Scanner;
 
 public class A04_SecondSmallest_Ele {
