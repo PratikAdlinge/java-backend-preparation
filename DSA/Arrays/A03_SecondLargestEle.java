@@ -1,3 +1,4 @@
+package DSA.Arrays;
 import java.util.Scanner;
 
 public class A03_SecondLargestEle {
