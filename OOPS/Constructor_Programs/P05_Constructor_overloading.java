@@ -13,7 +13,7 @@ class Student {
         System.out.println("enter fees of student");
         fees=sc.nextDouble();
 
-        System.out.println("Student details:"+"name:"+name+"roll no:"+rollno+"fees :"+fees);
+        System.out.println("Student details: "+" name:"+name+" roll no:"+rollno+" fees:"+fees);
     }
     Student(int x){
         rollno=x;
@@ -27,9 +27,16 @@ class Student {
 }
 public class P05_Constructor_overloading {
     public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        
         Student s1=new Student();
-        Student s2=new Student(101);
-        Student s3=new Student(40000.89,"pratik");
+        System.out.println("enter roll no for 2nd constructor");
+        int r=sc.nextInt();
+        Student s2=new Student(r);
+        System.out.println("enter the fees and name of student for 3rd constructor:");
+        double f=sc.nextDouble();
+        String s=sc.next();
+        Student s3=new Student(f,s);
 
     }
 }
