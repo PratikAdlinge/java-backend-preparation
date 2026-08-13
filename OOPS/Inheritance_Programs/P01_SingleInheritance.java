@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Inheritance_Programs;
 
 import java.util.Scanner;
 
