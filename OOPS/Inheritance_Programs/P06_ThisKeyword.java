@@ -7,9 +7,9 @@ class Student1 {
 
     }
     void display() {
-        System.out.println("Student Name:"+name);
-        System.out.println("Roll No:"+roll_No);
-        System.out.println("marks:"+marks);
+        System.out.println("Student Name:"+this.name);
+        System.out.println("Roll No:"+this.roll_No);
+        System.out.println("marks:"+this.marks);
     }
     void show() {
         this.display();
