@@ -14,7 +14,7 @@ public class A03_SecondLargestEle {
         }
         int largest_Element=arr1[0];
         int SecondLarget=arr1[0];
-        for(int i=0;i<arr1.length;i++) {
+        for(int i=1;i<arr1.length;i++) {
             if(arr1[i]> largest_Element){
                 largest_Element=arr1[i];
             }
