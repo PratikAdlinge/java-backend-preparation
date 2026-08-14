@@ -19,7 +19,7 @@ public class A03_SecondLargestEle {
                 largest_Element=arr1[i];
             }
         }
-        for(int i=0;i<arr1.length;i++) {
+        for(int i=1;i<arr1.length;i++) {
             if (arr1[i]!=largest_Element) {
                 SecondLarget=arr1[i];
                 
