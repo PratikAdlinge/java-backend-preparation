@@ -16,7 +16,7 @@ public class A01_LargestElement {
 
     }
     int largestElement=arr1[0];
-    for(int i=0;i<arr1.length;i++) {
+    for(int i=1;i<arr1.length;i++) {
         if(largestElement<arr1[i]){
             largestElement=arr1[i];
         }
