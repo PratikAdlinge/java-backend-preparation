@@ -38,7 +38,7 @@ public class P01_Encapsulation {
         b1.setAccountNumber(1012121393);
         //System.out.println(acc_No);
         b1.setAccountHolderName("Pratik Adlinge");
-        b1.setAccountBalance(-72345.89);     
+        b1.setAccountBalance(72345.89);     
         System.out.println("Account No:"+b1.getAccountNumber());
         System.out.println("Account holder Name:"+b1.getAccountHolderName());
         System.out.println("Account Balance :"+b1.getAccountBalance());
