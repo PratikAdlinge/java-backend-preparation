@@ -3,8 +3,8 @@ package OOPS.Interface_Programs;
 import java.util.Scanner;
 
 interface Client {
-    public abstract void input();
-    public abstract void output();
+     void input();
+     void output();
 }
 class Developer implements Client {
     Scanner sc=new Scanner(System.in);
