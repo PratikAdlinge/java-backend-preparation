@@ -2,14 +2,14 @@ package OOPS.Constructor_Programs;
 
 class Demo {
 
-    int a; String name; boolean t;
+    int a; String name; boolean truee;
     Demo() {
         a=10000;
            name="pratik";
-           t=true;
+           truee=true;
      }
     void display() {
-        System.out.println(a+" "+name+" "+t);
+        System.out.println(a+" "+name+" "+truee);
     }
 
 }
