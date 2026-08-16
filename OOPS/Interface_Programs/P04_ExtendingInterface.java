@@ -1,14 +1,14 @@
 package OOPS.Interface_Programs;
 
 interface Device {
-    void poweron();
+    public void poweron();
 }
 interface Smartdevice extends Device {
     void connectInternet();
 }
 class Smartphone implements Smartdevice {
     public void poweron() {
-        System.out.println("Device is power on");
+        System.out.println("Device is power on"); 
     }
     public void connectInternet(){
         System.out.println("Smartphone connected to Internet");
