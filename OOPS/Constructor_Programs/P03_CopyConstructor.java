@@ -10,7 +10,7 @@ class Book{
     Book(Book ref) {
         a=ref.a;
         b=ref.b;
-        System.out.println(a+" "+b);
+        System.out.println(a+"___"+b);
     }
 }
 public class P03_CopyConstructor {
