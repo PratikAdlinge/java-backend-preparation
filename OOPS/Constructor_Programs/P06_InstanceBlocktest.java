@@ -7,7 +7,7 @@ class Student {
         System.out.println("Student name in instance block:"+name);
     }
     Student() {
-        name="Sejal";
+        name="Pratiksha";
         System.out.println("Student name in constructor:"+name);
     }
 
