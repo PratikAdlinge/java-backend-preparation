@@ -1,7 +1,7 @@
 package OOPS.Interface_Programs;
 
 interface Device {
-    public void poweron();
+    void poweron();
 }
 interface Smartdevice extends Device {
     void connectInternet();
