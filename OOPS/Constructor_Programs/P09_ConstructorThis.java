@@ -17,11 +17,9 @@ class Student121 {
         System.out.println("Roll No of student is :"+rollNo);
     }
     Student121(String course,double fees) {
-        String coursee;double fees1;
-
-         coursee=course;
-         fees1=fees;
-         System.out.println("Course of student "+coursee+"\n Fees of student : "+fees1);
+        
+        
+         System.out.println("Course of student "+course+"\n Fees of student : "+fees);
 
 
     }
