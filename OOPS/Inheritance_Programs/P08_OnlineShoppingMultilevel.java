@@ -20,5 +20,7 @@ class ElectronicProduct extends Product{
     
 }
 public class P08_OnlineShoppingMultilevel {
-    
+    public static void main(String[] args) {
+        
+    }
 }
