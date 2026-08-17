@@ -15,7 +15,7 @@ class ElectronicProduct extends Product{
     int warranty;
     ElectronicProduct (String productName,double price,String brand,int warranty) {
     this.brand=brand;
-    
+    this.warranty=warranty;
     }
     
 }
