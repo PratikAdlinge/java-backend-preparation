@@ -26,7 +26,7 @@ class Employees extends Person {
 }
 public class P07_InheritanceSuperKeyword {
     public static void main(String[] args) {
-        Employees e1=new Employees("Pratikshaa","pratik21@gmail.com",56908.89);
-        e1.displayEmployee();
+        Employees e=new Employees("Pratikshaa","pratik21@gmail.com",56908.89);
+        e.displayEmployee();
     }
 }
