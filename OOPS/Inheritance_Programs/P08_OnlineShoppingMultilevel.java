@@ -44,7 +44,7 @@ public class P08_OnlineShoppingMultilevel {
     public static void main(String[] args) {
        Mobile mobile=new Mobile("Moto Edge 50 Fusion", 25000,"MOTOROLA", 1,"Android",256) ;
        mobile.displayMobileDetails();
-       System.out.println();
+       //System.out.println();
        mobile.displayProduct();
        System.out.println();
        mobile.electonicProductDisplay();
