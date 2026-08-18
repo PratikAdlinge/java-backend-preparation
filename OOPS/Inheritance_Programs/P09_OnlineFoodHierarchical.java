@@ -53,9 +53,9 @@ class DineInorder extends FoodOrder {
 }
 public class P09_OnlineFoodHierarchical {
     public static void main(String[] args) {
-    Onlineorder on=new Onlineorder(101, "pratik", 81.9,"pune ",401);
+    Onlineorder online=new Onlineorder(101, "pratik", 81.9,"pune ",401);
     DineInorder D=new DineInorder(102, "Archana",1200, 20, 4);
-    on.displayOnlineOrder();
+    online.displayOnlineOrder();
     System.out.println();
     D.displayDineOrder();
     }    
