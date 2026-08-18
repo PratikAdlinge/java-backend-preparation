@@ -33,7 +33,7 @@ public class P05_Constructor_overloading {
         System.out.println("enter roll no for 2nd constructor");
         int r=sc.nextInt();
         Student s2=new Student(r);
-        System.out.println("enter the fees and name of student for 3rd constructor:");
+        System.out.println("enter  fees and name of student for 3rd constructor:");
         double f=sc.nextDouble();
         String s=sc.next();
         Student s3=new Student(f,s);
