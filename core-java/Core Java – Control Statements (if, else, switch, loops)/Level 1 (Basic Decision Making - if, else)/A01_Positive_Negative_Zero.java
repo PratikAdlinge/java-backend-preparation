@@ -7,7 +7,7 @@ public class A01_Positive_Negative_Zero {
         System.out.println("Enter a no ");
         int no=sc.nextInt();
         if (no==0) {
-            System.out.println("no is zero");
+            System.out.println("number  is zero");
         
         }
         else if(no>0){
