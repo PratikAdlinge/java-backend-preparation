@@ -8,7 +8,7 @@ public class A11_LeftRotateByOne {
         System.out.println("enter size of an array");
         int size=sc.nextInt();
         if(size<0) {
-            System.out.println("Array must be greater than zero");
+            System.out.println("Array size must be greater than zero");
             return;
         }
         int numbers[]=new int[size];
