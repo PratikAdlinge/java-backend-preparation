@@ -30,7 +30,7 @@ public class A09_MaxMinElement {
                 
             }
         }
-        System.out.println("Max element in an array is:"+maxElement+" min element in an array is:"+minElement);
+        System.out.println("Maximam element in an array is:"+maxElement+" min element in an array is:"+minElement);
     }
     
 }
