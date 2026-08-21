@@ -34,14 +34,15 @@ class BankAccount {
 }
 public class P01_Encapsulation {
     public static void main(String[] args) {
-        BankAccount b1=new BankAccount();
-        b1.setAccountNumber(1012121393);
+        BankAccount bankAccount=new BankAccount();
+        BankAccount bankAccount=new BankAccount();
+       bankAccount.setAccountNumber(1012121393);
         //System.out.println(acc_No);
-        b1.setAccountHolderName("Pratik Adlinge");
-        b1.setAccountBalance(72345.89);     
-        System.out.println("Account No:"+b1.getAccountNumber());
-        System.out.println("Account holder Name:"+b1.getAccountHolderName());
-        System.out.println("Account Balance :"+b1.getAccountBalance());
+        bankAccount.setAccountHolderName("Pratik Adlinge");
+        bankAccount.setAccountBalance(72345.89);     
+        System.out.println("Account No:"+bankAccount.getAccountNumber());
+        System.out.println("Account holder Name:"+bankAccount.getAccountHolderName());
+        System.out.println("Account Balance :"+bankAccount.getAccountBalance());
         
 
     }
