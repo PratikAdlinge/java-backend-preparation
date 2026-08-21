@@ -8,7 +8,6 @@ class BillCalculator {
         System.out.println("Quantity:"+quantity);
         System.out.println("Total Amount:"+total);
 
-
     }
         void calCulateBill(double price ,int quantity,double discount) {
            double total=price*quantity; double discountAmt=total*discount/100; 
