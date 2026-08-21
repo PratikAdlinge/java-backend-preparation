@@ -19,8 +19,8 @@ package OOPS.Abstraction_Programs;
 public class P02_AbstractMethod {
     public static void main(String[] args) {
         Shape cirShape=new Circle();
-        Shape s2=new Rectangle();
+        Shape rShape=new Rectangle();
         cirShape.calArea();
-        s2.calArea();
+        rShape.calArea();
     }
 }
