@@ -7,13 +7,16 @@ class Payment {
     }
 }
 class UPI extends Payment {
+    @Override
     void makePayment(double amt) {
+        super.makePayment(amt);
         System.out.println("UPI Payment");
         System.out.println(amt);
         System.out.println("Payment Successfull using UPI");
     }
 }
 class Creditcard extends Payment {
+    @Override
     void makePayment(double amt) {
         System.out.println("Credit Card");
         System.out.println("Amount:"+amt);
@@ -21,6 +24,7 @@ class Creditcard extends Payment {
     }
 }
 class CashonDelivery extends Payment {
+    @Override
     void makePayment(double amt) {
         System.out.println("Cash on Delivery");
         System.out.println("Amount:"+amt);
