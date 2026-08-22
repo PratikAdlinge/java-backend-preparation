@@ -7,7 +7,7 @@ interface BankService {
     static void validateAmount(double amount){
         if (amount>0) {
             System.out.println("Valid Amount.");
-        } else {
+        } else { 
             System.out.println("InValid Amount.");
         }
     }
