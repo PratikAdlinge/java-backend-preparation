@@ -19,11 +19,11 @@ class SavingAccount implements BankService {
 }
 public class P07_BankServiceStaticMethod {
     public static void main(String[] args) {
-        SavingAccount s1=new SavingAccount();
+        SavingAccount savingAccount=new SavingAccount();
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Amount for deposite:");
         double amt=sc.nextDouble();
         BankService.validateAmount(amt);
-        s1.deposit(amt);
+        savingAccount.deposit(amt);
     }
 }
