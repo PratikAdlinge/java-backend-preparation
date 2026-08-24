@@ -23,13 +23,13 @@ public class P06_SmartHomeDefaultMethod {
     public static void main(String[] args) {
         
     
-    SmartTV s1=new SmartTV();
-    SmartAC s2=new SmartAC();
+    SmartTV smartTV=new SmartTV();
+    SmartAC smartAC=new SmartAC();
 
-    s1.turnOn();
-    s1.showDeviceInfo();
+    smartTV.turnOn();
+    smartTV.showDeviceInfo();
 
-    s2.turnOn();
-    s2.showDeviceInfo();
+    smartAC.turnOn();
+    smartAC.showDeviceInfo();
 }
 }
