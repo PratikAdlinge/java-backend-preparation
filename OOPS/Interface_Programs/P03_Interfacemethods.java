@@ -18,8 +18,8 @@ class Nishant extends Sanket {
 }
 public class P03_Interfacemethods {
     public static void main(String[] args) {
-        Nishant n1=new Nishant();
-        n1.webdesign();
-        n1.webdevelop();
+        Nishant nishant=new Nishant();
+        nishant.webdesign();
+        nishant.webdevelop();
     }
 }
