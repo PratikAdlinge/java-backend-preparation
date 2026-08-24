@@ -16,8 +16,8 @@ class Smartphone implements Smartdevice {
 }
 public class P04_ExtendingInterface {
     public static void main(String[] args) {
-        Smartdevice s1=new Smartphone();
-        s1.poweron();
-        s1.connectInternet();
+        Smartdevice smartdevice=new Smartphone();
+        smartdevice.poweron();
+        smartdevice.connectInternet();
     }
 }
