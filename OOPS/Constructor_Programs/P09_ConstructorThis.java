@@ -11,7 +11,7 @@ class Student121 {
         System.out.println("Name of Student :"+name);
     }
     Student121(int x){
-        this("java",112009.489);
+        this("java",112009.434);
 
         int rollNo=x;
         System.out.println("Roll No of student is :"+rollNo);
