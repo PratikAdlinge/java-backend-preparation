@@ -2,7 +2,7 @@ package OOPS.Polymorphism_Programs;
 class BillCalculator {
    void  calCulateBill(double price) {
         System.out.println("Bill Amount:"+price);
-    }
+    } 
     void calCulateBill(double price ,int quantity) {
         double total=price*quantity;
         System.out.println("Quantity:"+quantity);

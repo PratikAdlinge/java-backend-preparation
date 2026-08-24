@@ -17,7 +17,7 @@ class Student1 {
     }
 
     Student1(){
-        this("pratik",101,87.45);
+        this("pratik",101,87);
     }
 }
 
