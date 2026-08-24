@@ -25,9 +25,9 @@ class Developer implements Client {
 }
 public class P01_Interface {
     public static void main(String[] args) {
-        Client c1=new Developer();
-        c1.input();
-        c1.output();
+        Client client=new Developer();
+        client.input();
+        client.output();
 
     }
     
