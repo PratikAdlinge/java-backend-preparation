@@ -18,11 +18,11 @@ class Calculator {
 }
 public class P01_MethodOverloading {
     public static void main(String[] args) {
-        Calculator c1=new Calculator();
-        int add=c1.add(10, 20);
+        Calculator calculator=new Calculator();
+        int add=calculator.add(10, 20);
         System.out.println("Addition of two integer:"+add);
-        c1.add(100, 200, 300);
-        c1.add(90.9, 80.8);
-        c1.add(100, 45.60);
+        calculator.add(100, 200, 300);
+        calculator.add(90.9, 80.8);
+        calculator.add(100, 45.60);
     }
 }
