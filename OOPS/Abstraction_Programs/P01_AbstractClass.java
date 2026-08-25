@@ -22,10 +22,10 @@ class Tester extends Employee {
 }
 public class P01_AbstractClass {
     public static void main(String[] args) {
-        Developer dev=new Developer();
+        Developer developer=new Developer();
         Tester tester =new Tester();
-        dev.displayCompany();
-        dev.calculateSalary();
+        developer.displayCompany();
+        developer.calculateSalary();
         tester.displayCompany();
         tester.calculateSalary();
     }
