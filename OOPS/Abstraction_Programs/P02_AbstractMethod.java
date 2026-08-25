@@ -3,9 +3,9 @@ package OOPS.Abstraction_Programs;
     public abstract void calArea();
  }
  class Circle extends Shape {
-    double r=10.34;
+    double radius=10.34;
     public void calArea() {
-        double area=3.14*r*r;
+        double area=3.14*radius*radius;
         System.out.println("area of circle:"+area);
     }
  }
