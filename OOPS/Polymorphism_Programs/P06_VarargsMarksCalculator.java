@@ -13,6 +13,11 @@ class MarksCalculator {
         System.out.println("Average of Marks:"+avgMarks);
 
     }
+    void names (String... names) {
+        for (String string1 : names) {
+            System.out.println(string1);
+        }
+    }
 }
 
 public class P06_VarargsMarksCalculator {
@@ -21,6 +26,10 @@ public class P06_VarargsMarksCalculator {
         m1.calculateMarks(100);
         m1.calculateMarks(100,33,44,72,54);
         m1.calculateMarks(73,67,57);
+
+        m1.names("Pratik");
+        m1.names("nishant","pratik");
+        m1.names("sanket","pavan");
         
     }
 }
