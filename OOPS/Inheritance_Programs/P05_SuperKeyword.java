@@ -31,7 +31,7 @@ class Manager1 extends Employee1 {
 }
 public class P05_SuperKeyword {
     public static void main(String[] args) {
-        Manager1 m1=new Manager1();
-        m1.displayManagerDetail();
+        Manager1 manager1=new Manager1();
+        manager1.displayManagerDetail();
     }
 }
