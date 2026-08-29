@@ -44,9 +44,9 @@ class DineInorder extends FoodOrder {
         System.out.println("DineOrder Details:");
         System.out.println("Order ID:"+orderId);
         System.out.println("Customer Name:"+customerName);
-        System.out.println("total Bill:"+amt);
+        System.out.println("Total Bill:"+amt);
         System.out.println("Table Number:"+tableno);
-        System.out.println("number of people:"+numberOfPeople);
+        System.out.println("Number of people:"+numberOfPeople);
 
 
     }
