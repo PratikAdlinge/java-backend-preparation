@@ -13,7 +13,7 @@ class SellerSiddhu implements CustomerNishant {
 }
 public class P02_Interface2 {
     public static void main(String[] args) {
-        CustomerNishant s1=new SellerSiddhu();
-        s1.purchase();
+        CustomerNishant cust=new SellerSiddhu();
+        cust.purchase();
     }
 }
