@@ -1,6 +1,6 @@
 package Exception_Handling;
 
-public class P_12Exception_Propagation {
+public class P12_Exception_Propagation {
     public static void main(String[] args) {
         try {
             m1();
