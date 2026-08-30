@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.Inheritance_Programs;
 
 import java.util.Scanner;
 
@@ -46,12 +46,12 @@ class Department extends Manager {
 }
 public class P02_MultilevelInheritance {
     public static void main(String[] args) {
-        Department d1=new Department();
-        d1.getEmployeeDetails();
-        d1.getManagerDetail();
-        d1.getDepartmentDetail();
+        Department department=new Department();
+        department.getEmployeeDetails();
+        department.getManagerDetail();
+        department.getDepartmentDetail();
         //d1.displayManagerDetails();
-        d1.displayDepartmentDetails();
+        department.displayDepartmentDetails();
         
     }
     
