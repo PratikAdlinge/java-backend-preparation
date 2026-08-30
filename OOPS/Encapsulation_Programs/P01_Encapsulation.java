@@ -35,7 +35,7 @@ class BankAccount {
 public class P01_Encapsulation {
     public static void main(String[] args) {
         BankAccount bankAccount=new BankAccount();
-        BankAccount bankAccount=new BankAccount();
+       // BankAccount bankAccount=new BankAccount();
        bankAccount.setAccountNumber(1012121393);
         //System.out.println(acc_No);
         bankAccount.setAccountHolderName("Pratik Adlinge");

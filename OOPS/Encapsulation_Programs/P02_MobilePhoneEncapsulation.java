@@ -14,7 +14,15 @@ class Mobilephone {
         this.price=price;
     }
     void setBatteryPercentage (int per) {
+
+        if(per>0 && per <100){
         this.batteryPercentage=per;
+
+        }
+        else
+        {
+            System.out.println("Invalid battery percenatge");
+        }
     }
 
     String getBrandname () {
