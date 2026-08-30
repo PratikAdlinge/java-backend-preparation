@@ -2,7 +2,7 @@ package OOPS.Abstraction_Programs;
 
 import java.util.Scanner;
 
-abstract class Employee {
+abstract class Employee21 {
     String name; int id;double salary;
     Scanner sc=new Scanner(System.in);
 
@@ -16,14 +16,14 @@ abstract class Employee {
         System.out.println("Basic Salary:"+salary);
     }
 }
-class FullTimeEmployee extends Employee {
+class FullTimeEmployee extends Employee21 {
     public void calculateSalary() {
         double bonus=14393.490;
         double totalSal=salary+bonus;
         System.out.println("Total Salary of Full time Employee:"+totalSal);
     }
 }
-class PartTimeEmployee extends Employee {
+class PartTimeEmployee extends Employee21 {
     public void calculateSalary () {
         System.out.println("Hour much hour he worked :");
         float hour=sc.nextFloat();
@@ -34,8 +34,8 @@ class PartTimeEmployee extends Employee {
 }
 public class P03_EmployeeSalaryAbstraction {
     public static void main(String[] args) {
-        Employee f1=new FullTimeEmployee();
-        Employee p1=new PartTimeEmployee();
+        Employee21 f1=new FullTimeEmployee();
+        Employee21 p1=new PartTimeEmployee();
         f1.displayDetails1("Pratiksha",101,100000.43);
         f1.calculateSalary();
 
