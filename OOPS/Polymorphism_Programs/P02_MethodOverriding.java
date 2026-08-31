@@ -22,9 +22,9 @@ class Cat extends Animal{
 }
 public class P02_MethodOverriding {
     public static void main(String[] args) {
-        Animal d=new Dog();
+        Animal dog=new Dog();
         Animal c=new Cat();
-        d.sound();
+        dog.sound();
         c.sound();
     }
 }
