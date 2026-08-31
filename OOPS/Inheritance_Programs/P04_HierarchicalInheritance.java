@@ -42,12 +42,12 @@ class Bike extends Vehicle {
 public class P04_HierarchicalInheritance {
     public static void main(String[] args) {
         Car car=new Car();
-        Bike b1=new Bike();
+        Bike bike1=new Bike();
         car.getVehicleDetails();
         car.getCarDetail();
         car.displayCarDetails();
-        b1.getVehicleDetails();
-        b1.getBikeDetail();
-        b1.displayBikeDetails();
+        bike1.getVehicleDetails();
+        bike1.getBikeDetail();
+        bike1.displayBikeDetails();
     }
 }
