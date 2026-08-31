@@ -22,12 +22,12 @@ class Manager extends Employee {
         teamsize=sc.nextInt();
     }
     
-    // void displayManagerDetails(){
-    //     System.out.println("Employee ID:"+emp_Id);
-    //     System.out.println("Employee name:"+emp_Name);
-    //     System.out.println("Employee Salary:"+emp_Sal);
-    //     System.out.println("Team Size:"+teamsize);
-    // }
+    void displayManagerDetails(){
+        System.out.println("Employee ID:"+emp_Id);
+        System.out.println("Employee name:"+emp_Name);
+        System.out.println("Employee Salary:"+emp_Sal);
+        System.out.println("Team Size:"+teamsize);
+    }
 }
 class Department extends Manager {
     String dept_Name;
