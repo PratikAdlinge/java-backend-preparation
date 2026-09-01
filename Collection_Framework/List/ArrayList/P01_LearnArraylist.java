@@ -1,6 +1,7 @@
 package Collection_Framework.List.ArrayList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class P01_LearnArraylist {
     public static void main(String[] args) {
@@ -55,7 +56,10 @@ public class P01_LearnArraylist {
 
 
         System.out.println(names.containsAll(students));// All elements present?
-
+        Iterator<String> it=names.iterator();
+        while(it.hasNext()) {
+            System.out.println(it.next());
+        }
         System.out.println(names.toArray()); // Array mein convert
         System.out.println(names.removeAll(students));// Common elements remove
         System.out.println(names);

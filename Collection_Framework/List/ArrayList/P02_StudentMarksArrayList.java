@@ -50,6 +50,8 @@ public class P02_StudentMarksArrayList {
 
          Collections.sort(marks);
          System.out.println("After Sorting:"+marks);
+
+         
         }
     }
 
