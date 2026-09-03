@@ -21,5 +21,6 @@ public class P03_Linkedlist_to_Array {
        names.addFirst("Pratik");
        names.addLast("Panda");
        System.out.println(names);
+       System.out.println(names.removeLast());
     }
 }
