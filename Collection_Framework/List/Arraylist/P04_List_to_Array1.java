@@ -8,6 +8,8 @@ public class P04_List_to_Array1 {
         subjects.add("Java");
         subjects.add("Python");
         subjects.add("AWS");
+        subjects.add("Java");
+
         System.out.println("Arraylist Elements:"+subjects);
 
         Object obj[]=subjects.toArray();
@@ -16,5 +18,8 @@ public class P04_List_to_Array1 {
             System.out.println(object);
 
         }
+        System.out.println(subjects.lastIndexOf("Java"));
+
+        //
     }
 }

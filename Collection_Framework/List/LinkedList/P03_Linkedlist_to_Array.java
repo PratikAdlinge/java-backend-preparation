@@ -17,5 +17,9 @@ public class P03_Linkedlist_to_Array {
        for (Object object : obj) {
         System.out.println(object);
        }
+       //add first and add last
+       names.addFirst("Pratik");
+       names.addLast("Panda");
+       System.out.println(names);
     }
 }
