@@ -2,6 +2,7 @@ package File_Handling;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintStream;
 import java.io.PrintWriter;
 
 public class P03_FileWriter  {
@@ -12,7 +13,7 @@ public class P03_FileWriter  {
         f.close();
         System.out.println("Successfuly data wrote in file");
 
-        PrintWriter.nullWriter();
+        
         
     }
 }
