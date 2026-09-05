@@ -10,5 +10,6 @@ public class P06_FileHandling {
         if(file.createNewFile()) {
             System.out.println("Successfully created :");
         }
+        
     }
 }
