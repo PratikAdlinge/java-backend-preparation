@@ -2,10 +2,10 @@ package MultiThreading;
   
 class  Table {
     public  void Printable(int n){
-        //synchronized (this) {
+        synchronized (this) {
         for (int i=1;i<=10;i++){
             System.out.println(n*i);
-       // }
+        }
     }
     }
 }
