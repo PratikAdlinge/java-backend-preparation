@@ -20,7 +20,7 @@ class Notification {
         System.out.println("Message is:"+msg+" Receiver is:"+receiver +"Priority of message:"+urgent);
     }
 }
-public class P06_NotificationSystem_overloading {
+public class P07_NotificationSystem_overloading {
     public static void main(String[] args) {
         Notification n1=new Notification();
         n1.send("Interview is schedule at 3 pm:");
