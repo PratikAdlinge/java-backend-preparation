@@ -11,7 +11,7 @@ class SIMCA{
     }
 
     SIMCA(int fees,String msg){
-        System.out.println("Invested Money"+fees);
+        System.out.println("Invested Money:"+fees);
         System.out.println(msg);
 
     }
