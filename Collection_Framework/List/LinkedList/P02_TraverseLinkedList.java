@@ -1,4 +1,5 @@
 package Collection_Framework.List.LinkedList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -19,6 +20,7 @@ public class P02_TraverseLinkedList {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
+        Collections.sort(list,(a,b)-> b-a);
+        System.out.println(list);
     }
 }
