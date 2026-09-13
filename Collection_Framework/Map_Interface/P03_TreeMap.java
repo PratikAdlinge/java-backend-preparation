@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 
 public class P03_TreeMap {
     public static void main(String[] args) {
-       TreeMap<String ,String> map=new TreeMap<>();
+       TreeMap<String ,String> map=new TreeMap<>((a,b)-> b.compareTo(a));
 
         map.put("in", "India");
         map.put("us", "United states");
