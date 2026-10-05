@@ -15,7 +15,7 @@ public class P13_Method_Constructor_Reference {
     public static void main(String[] args) {
         List<String> students=Arrays.asList("Pratik","Pratiksha","Pratibha");
         students.forEach(Test::print);
-
+        
 
     }
 }
