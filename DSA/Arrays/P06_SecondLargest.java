@@ -1,4 +1,4 @@
-public class P06_SecondLargest_Smallest {
+public class P06_SecondLargest {
     public static void main(String[] args) {
         int arr[]={10,20,2,43,24};
         System.out.println("Array element is:");
