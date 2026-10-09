@@ -1,0 +1,31 @@
+package DSA.Sorting;
+
+import java.util.*;
+
+public class P01_Bubblesort {
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter size of an array:");
+        int size=sc.nextInt();
+        int arr[]=new int [size];
+        System.out.println("Enter elements of an array");
+        for(int i=0;i<size;i++) {
+            arr[i]=sc.nextInt();
+        }
+        int temp;
+        for(int i=size-1;i>=0;i--){
+            for(int j=0;j<i;j++) {
+                if(arr[j]>arr[j+1]) {
+                    temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
+                }
+            }
+        }
+        System.out.println("Sorted Array is:");
+        for(int i=0;i<size;i++) {
+            System.out.println(arr[i]);
+        }
+    }
+}

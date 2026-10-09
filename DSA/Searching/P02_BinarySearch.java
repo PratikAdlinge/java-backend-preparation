@@ -12,6 +12,7 @@ public class P02_BinarySearch {
             mid = lowerele + (upperele - lowerele) / 2;
             if (arr[mid]==item) {
                 count=mid;
+                
                 break;
             }
             if (arr[mid]<item) {
