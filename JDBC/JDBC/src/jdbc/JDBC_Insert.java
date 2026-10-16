@@ -35,6 +35,12 @@ public class JDBC_Insert {
 				 else {
 					 System.out.println("No Record Inserted");
 				 }
+				 
+				 System.out.println("Do you want insert record (Yes/No)");
+				 String ch=sc.next();
+				 if(ch.equalsIgnoreCase("no")){
+					 break;
+				 }
 			 }
 			} catch (Exception e) {
 			// TODO Auto-generated catch block
