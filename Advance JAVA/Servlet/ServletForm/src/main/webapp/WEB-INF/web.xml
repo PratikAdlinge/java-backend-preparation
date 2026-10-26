@@ -18,4 +18,11 @@
   </servlet>
   <servlet-mapping><servlet-name>register</servlet-name>
   <url-pattern>/RegisterServlet</url-pattern> </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>signup</servlet-name>
+  <servlet-class> com.formservlet.SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping><servlet-name>signup</servlet-name>
+  <url-pattern>/SignupServlet</url-pattern> </servlet-mapping>
 </web-app>
