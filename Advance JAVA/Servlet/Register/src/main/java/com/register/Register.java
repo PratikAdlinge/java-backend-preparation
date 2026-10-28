@@ -36,24 +36,36 @@ public class Register extends HttpServlet {
 		String password=request.getParameter("user_password");
 		
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/register","root","pratik");
-			
-			String query="insert into user(user_name,email,password)values (?,?,?)";
-			PreparedStatement pstmt=con.prepareStatement(query);
-			pstmt.setString(1, name);
-			pstmt.setString(2, email);
-			pstmt.setString(3, password);
-			pstmt.executeUpdate();
-			
-			out.println("<h2>done....</h2>");
-			
+		    Class.forName("com.mysql.cj.jdbc.Driver");
+
+		    Connection con = DriverManager.getConnection(
+		        "jdbc:mysql://localhost:3306/register",
+		        "root",
+		        "pratik"
+		    );
+
+		    String query =
+		        "INSERT INTO register(username, password, email) VALUES (?, ?, ?)";
+
+		    PreparedStatement pstmt = con.prepareStatement(query);
+
+		    pstmt.setString(1, name);
+		    pstmt.setString(2, password);
+		    pstmt.setString(3, email);
+
+		    int rows = pstmt.executeUpdate();
+
+		    if (rows > 0) {
+		        out.println("<h2>Registration successful!</h2>");
+		    }
+
+		    pstmt.close();
+		    con.close();
+
+		} catch (Exception e) {
+		    e.printStackTrace();
+		    out.println("<h3>Registration failed. Check Eclipse Console.</h3>");
 		}
-		catch (Exception e) {
-			// TODO: handle exception
-			out.println("<h3>Error...</h3>");
-		}
-		
 		out.print(name);
 		out.print(password);
 		out.print(email);

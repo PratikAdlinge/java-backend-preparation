@@ -22,7 +22,7 @@
        
        <div class="form center-align">
        <!-- creating form -->
-       <form action="Register" method="post">
+       <form action="Register" method="post" id="myform">
        <input type="text" name="user_name" placeholder="Enter User Name"> 
        <input type="password" name="user_password" placeholder="Enter User password"> 
        <input type="email" name="user_email" placeholder="Enter User email"> 
@@ -86,6 +86,27 @@
   <script>
   $(document).ready(function() {
 	  console.log("page is ready...")
+	  $("#myform").on('submit',function(event){
+		  event.preventDefault();
+	  })
+	  var f=$(this).serialize();
+	  console.log(f);
+	  $.ajax({
+		  
+		  url:"Register",
+		  data:f,
+		  type:'post',
+		  success: function(data,textStatus,jqXHR){
+			  console.log(data);
+			  console.log("Success.....")
+		  },
+		  error:function(jqXHR,textStatus,erroThrown){
+			  console.log(data);
+			  console.log("Error.....")
+			  
+		  }
+	  })
+	  
   })
   
   </script>
