@@ -1,5 +1,6 @@
 package com.hibernate;
 
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -10,6 +11,14 @@ public class Employee {
 	private int id;
 	private String name;
 	private String city;
+	@Embedded
+	private Technology tech;
+	public Technology getTech() {
+		return tech;
+	}
+	public void setTech(Technology tech) {
+		this.tech = tech;
+	}
 	public int getId() {
 		return id;
 	}
