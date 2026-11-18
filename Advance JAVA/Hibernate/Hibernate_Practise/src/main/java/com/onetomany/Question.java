@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 @Entity
@@ -11,7 +12,9 @@ public class Question {
 	@Id
 	private int question_Id;
 	private String question;
-	@OneToMany (mappedBy = "question")
+	@OneToMany (mappedBy = "question",fetch = FetchType.LAZY)
+	//@OneToMany (mappedBy = "question",fetch = FetchType.EAGER)
+
 	private List<Answer>answer=new ArrayList<Answer>();
 	public int getQuestion_Id() {
 		return question_Id;
