@@ -35,5 +35,19 @@
 			<version>7.4.14.Final</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- Source: https://mvnrepository.com/artifact/org.ehcache/ehcache -->
+		<!-- Hibernate Second-Level Cache integration -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-jcache</artifactId>
+			<version>7.4.14.Final</version>
+		</dependency>
+
+		<!-- Ehcache 3 cache provider -->
+		<dependency>
+			<groupId>org.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+			<version>3.12.0</version>
+		</dependency>
 	</dependencies>
 </project>

@@ -12,13 +12,23 @@
 		<property name="hbm2ddl.auto">update</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="format_sql">true</property>
+		<property name="hibernate.cache.use_second_level_cache">true</property>
+
+		<property name="hibernate.cache.region.factory_class">
+			jcache
+		</property>
+
+		<property name="hibernate.javax.cache.provider">
+			org.ehcache.jsr107.EhcacheCachingProvider
+		</property>
+
 		<mapping class="com.hibernate.Employee"></mapping>
 		<mapping class="com.hibernate.Address"></mapping>
 		<mapping class="com.onetomany.Question"></mapping>
 		<mapping class="com.onetomany.Answer"></mapping>
 		<mapping class="com.many_to_many.Employees"></mapping>
 		<mapping class="com.many_to_many.Projects"></mapping>
-		
+
 
 
 
