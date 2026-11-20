@@ -3,6 +3,7 @@ package com.onetomany;
 import java.util.ArrayList;
 import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
@@ -12,7 +13,7 @@ public class Question {
 	@Id
 	private int question_Id;
 	private String question;
-	@OneToMany (mappedBy = "question",fetch = FetchType.LAZY)
+	@OneToMany (mappedBy = "question",fetch = FetchType.LAZY, cascade =CascadeType.ALL)
 	//@OneToMany (mappedBy = "question",fetch = FetchType.EAGER)
 
 	private List<Answer>answer=new ArrayList<Answer>();

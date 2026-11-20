@@ -28,16 +28,24 @@ public class Answer {
 	public void setQuestion(Question question) {
 		this.question = question;
 	}
-	public Answer() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public Answer(int answer_Id, String answer, Question question) {
-		super();
-		this.answer_Id = answer_Id;
-		this.answer = answer;
-		this.question = question;
-	}
+
+public Answer() {
+    super();
+}
+
+public Answer(int answer_Id, String answer) {
+    super();
+    this.answer_Id = answer_Id;
+    this.answer = answer;
+}
+
+public Answer(int answer_Id, String answer, Question question) {
+    super();
+    this.answer_Id = answer_Id;
+    this.answer = answer;
+    this.question = question;
+}
+
 	
 	
 	
