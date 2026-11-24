@@ -5,9 +5,8 @@
   https://www.springframework.org/schema/beans/spring-beans.xsd">
   
   <bean class="com.springcore.Student" name="student1">
-   	<property name="student_Id">
-   	<value>22344</value>
-   	</property>
+   	<property name="student_Id" value="22322"/>
+   	
    	<property name="student_Name">
    	<value>Pratik Adlinge</value>
    	</property>
