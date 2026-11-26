@@ -7,5 +7,7 @@
 <bean class="com.springcore.lifecycle.Samosa" name="s1"  init-method="init" destroy-method="destroy">
 <property name="price" value="20"/>
 </bean>
-  
+  <bean class="com.springcore.lifecycle.Pepsi" name="p1">
+  <property name="price" value="20"></property>
+  </bean>
 </beans>

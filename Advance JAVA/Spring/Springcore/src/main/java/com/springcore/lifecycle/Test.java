@@ -13,6 +13,10 @@ public class Test {
 		Samosa S1=(Samosa) context.getBean("s1");
 		System.out.println(S1);
 		context.registerShutdownHook();
+		
+		System.out.println("+++++++++++++++++++++++++++++++++++++++");
+		Pepsi p1=(Pepsi) context.getBean("p1");
+		System.out.println(p1);
 	}
 
 }
