@@ -14,10 +14,10 @@
   <property name="city" value="Pune"/>
   </bean>
   
-  <!-- <bean class="com.springcore.autowire.Address" name="address2">
+  <bean class="com.springcore.autowire.annotation.Address" name="address2">
   <property name="street" value="Sector 20"/>
   <property name="city" value="Pune -camp"/>
-  </bean> -->
+  </bean>
   <bean class="com.springcore.autowire.annotation.Employee" name="emp1"/>
   
    
