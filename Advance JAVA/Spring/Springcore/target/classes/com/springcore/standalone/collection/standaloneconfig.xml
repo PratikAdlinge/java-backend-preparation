@@ -1,0 +1,55 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util
+       https://www.springframework.org/schema/util/spring-util.xsd">
+       <!-- Standalone List -->
+       <util:list list-class="java.util.LinkedList" id="myfriends">
+       <value>Ajit</value>
+       <value>Amol</value>
+       <value>Aditya</value>
+       <value>Athrav</value>
+       <value>Aashish</value>
+       
+       
+       
+       </util:list>
+       
+       <util:map map-class="java.util.HashMap" id="fees">
+       <entry key="Java" value="12500"/>
+       <entry key="Python" value="12500"/>
+       <entry key="AI/Ml" value="14500"/>
+       <entry key="Cloud" value="13500"/>
+       
+       
+       
+       
+       
+       </util:map>
+       
+       
+
+	<context:annotation-config />
+
+	<bean class="com.springcore.standalone.collection.Person" name="person1">
+	<property name="friends" ref="myfriends"></property>
+	<!-- <property name="friend" >
+	<ref bean="myfriends"/>
+	</property> -->
+	</bean>
+	
+	<bean class="com.springcore.standalone.collection.Person" name="person2">
+	<property name="friends" ref="myfriends"></property>
+	</bean>
+	
+	<bean class="com.springcore.standalone.collection.Person" name="person3">
+	<property name="Fees" ref="fees"></property>
+	</bean>
+
+</beans>
